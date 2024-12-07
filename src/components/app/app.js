@@ -45,19 +45,6 @@ class App extends Component {
     })
   }
 
-  // onToggleLike = (id) => {
-  //   this.setState(({data}) => {
-  //     return {
-  //       data: data.map(item => {
-  //         if (item.id ===id) {
-  //           return {...item, like: !item.like}
-  //         }
-  //         return item;
-  //       }),
-  //     }
-  //   })
-  // }
-
   render() {
     const {data} = this.state;
     return (
